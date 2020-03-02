@@ -1,0 +1,175 @@
+*
+{
+	margin:0 auto;
+
+}
+.left
+{
+	width:50%;
+}
+.right
+{
+	width:50%;
+
+}
+#containerid
+{
+	display: flex;
+ 	flex-direction: row;
+}
+.content
+{
+	display:flex;
+	flex-direction:row;
+}
+textarea
+{
+	max-width:250px;
+}
+.label
+{
+	min-width:90px;
+}
+.inputfield
+{
+	margin-right:10px;
+}
+select
+{
+	width:50px;
+}
+.routing
+{
+	width:40px;
+}
+.routinglabel
+{
+	margin-left:50px;
+	padding-left:10px;
+
+}
+.routinglab
+{
+		margin-left:20px;
+}
+.iatacode
+{
+
+}
+.iatalabel
+{
+	
+}
+#addbtn
+{
+	background-color:gray;
+
+}
+.modal
+{
+	border:25px solid white;
+}
+.modal-header h4
+{
+	font-family:serif;
+}
+.con1,.con2
+{
+	display:flex;
+	flex-direction:row;
+}
+.browser-default
+{
+	width:150px;
+	margin-left:10%;
+}
+.con3lab
+{
+	margin-left:10px;
+}
+.con4
+{
+	display:inline-flex;
+}
+.datatable
+{
+	margin-top:1%;
+}
+.notify
+{
+	width:50px;
+}
+.accinfo
+{
+	width:300px;
+}
+.sri
+{
+	margin-left:20%;
+}
+.srinfo
+{
+	display:inline-flex;
+}
+.txt_sp_ser_req
+{
+	max-width:615px;
+	min-height:4em;
+}
+.splhandet
+{
+	margin-left:20%;
+}
+.splservice
+{
+	min-height:8.8em;
+}
+.custorig
+ {
+ 	min-height:9em;
+ }
+.Othercusinfo
+{
+	width:70%
+}
+.custorigin
+{
+	width:30%;
+}
+.sci
+{
+	max-width:50px;
+}
+table
+{
+	border:none;
+}
+.chargesdec
+{
+	width:70px;
+}
+.alsonotify
+{
+	max-width:350px;
+	width:280%
+}
+.countrycode
+{
+	width:60%;
+}
+.others
+{
+	display:flex;
+}
+.search
+{
+	margin-top:50%;
+}
+.otherslab
+{
+	margin-left:10%;
+}
+.otherstxt
+{	
+		width:800%;
+}

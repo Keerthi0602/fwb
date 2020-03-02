@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FWB</title>
+	<title>FWB</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fwb.css">
+</head>
+<body>
+	<div class="left" >
+		<div class="row">
+			<div class="col s12 m12 l12">
+				<div class="card">
+					<fieldset>
+						<legend>Shipper</legend>
+						<div class="content">
+							<div class="label">
+								<label>Account number</label>
+							</div>
+							<div class="inputfield">
+								<textarea ></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Name</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Street Address</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Place</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+							<div class="label">
+								<label>State/Province</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Country code</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+							<div class="label">
+								<label>Post code</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Contact</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Consignee</legend>
+						<div class="content">
+							<div class="label">
+								<label>Account number</label>
+							</div>
+							<div class="inputfield">
+								<textarea ></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Name</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Street Address</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Place</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+							<div class="label">
+								<label>State/Province</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Country code</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+							<div class="label">
+								<label>Post code</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Contact</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Issuing carrier's agent</legend>
+						<div class="content">
+							<div class="label">
+								<label>Name and city</label>
+							</div>
+							<div class="inputfield">
+								<textarea ></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Place</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>IATA code</label>
+								<textarea style="width:80px;" class="iatacode"></textarea>
+							</div>
+							<div class="inputfield">
+								<label>CASS address</label>
+								<textarea style="width:40px;" class="cass"></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Account no</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Routing</legend>
+						<div class="content">
+							<div class="label">
+								<label class="routinglab" >To</label>
+								<textarea class="routing"></textarea>
+							</div>
+							<div class="inputfield">
+									<label class="routinglabel">By first carrier</label>
+									<textarea class="routing"></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>To</label>
+								<textarea class="routing"></textarea>
+							</div>
+							<div class="inputfield">
+									<label class="routinglabel">By</label>
+									<textarea class="routing"></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>To</label>
+								<textarea class="routing"></textarea>
+							</div>
+							<div class="inputfield">
+									<label class="routinglabel">By</label>
+									<textarea class="routing"></textarea>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Flight booking</legend>
+						<div class="content">
+							<div class="label">
+								<label>Flight/Date</label>
+							</div>
+							<div class="inputfield">
+									<textarea></textarea>
+									<p>For example:AB123/01</p>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Flight/Date</label>
+							</div>
+							<div class="inputfield">
+									<textarea></textarea>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="right">
+		<div class="row">
+		<div class="col s12 m12 l12">
+				<div class="card">
+					<fieldset>
+						<legend>Consignment details</legend>
+						<div class="content">
+							<div class="label">
+								<label>Airline prefix</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Airline serial number</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea><br>
+								<input type="checkbox" name="assignonsave"><span><label>assign on save</label></span>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Origin prefix</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Airline prefix</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Destination</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Number of pieces</label>
+							</div>
+							<div class="inputfield">
+								<textarea disabled="true">0</textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								  <label>Weight</label>
+								  
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+								  <select class="browser-default"disabled style="width:50px;">
+								  	<option>K</option>
+								  </select>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Volume</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+								<select class="browser-default" style="width:70px;">
+								  	<option>cm3</option>
+								  	<option>ft3</option>
+								  	<option>in3</option>
+								  	<option>n3</option>
+								  </select>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Airline prefix</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="content">
+							<div class="label">
+								<label>Density group</label>
+							</div>
+							<div class="inputfield">
+								<textarea></textarea>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Also notify</legend>
+								<table>
+									<tr>
+										<td><label>Name</label></td>
+										<td><textarea class="alsonotify"></textarea></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>										
+										<td><label>Street address</label></td>
+										<td><textarea class="alsonotify"></textarea></td>
+										<td></td>									
+										<td></td>
+									</tr>
+									<tr>
+										<td><label>Place</label></td>
+										<td><textarea></textarea></td>										
+										<td><label>State/Province</label></td>
+										<td><textarea></textarea></td>
+									</tr>
+									<tr>
+										<td><label>Country code</label></td>
+										<td><textarea class="countrycode"></textarea></td>										
+										<td><label>Post code</label></td>
+										<td><textarea class="postcode"></textarea></td>
+									</tr>
+									<tr>
+										<td><label>Contact</label></td>
+										<td><select class="browser-default notify" >
+											<option>TE</option>
+											<option>FX</option>
+											<option>TL</option>
+											</select>
+										</td>										
+										<td><textarea></textarea></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td><label>Place</label></td>
+										<td><select class="browser-default notify" >
+											<option>TE</option>
+											<option>FX</option>
+											<option>TL</option>
+											</select>
+										</td>										
+										<td><textarea></textarea></td>
+										<td></td>
+									</tr>
+								</table>
+							</div>
+							<div class="inputfield">
+								
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+					<legend>Accounting information</legend>
+						 <a class=" btn modal-trigger" href="#add" id="addbtn">Add</a>
+						 <a class=" btn modal-trigger" href="#add" id="addbtn" disabled="disabled" >Modify</a>
+						 <a class=" btn modal-trigger" href="#add" id="addbtn" disabled="disabled">Remove</a>
+						 <div id="add" class="modal">
+						 	 <div class="modal-header">
+						 	 	<h4>Add item</h4>
+						 	 </div>
+						     <div class="modal-content">
+						     	<div class="row">
+									<div class="col s12 m12">
+						     			<div class="con1 col l6">
+						     				<label class="id">Id</label>
+						     				<select class="browser-default accinfo">
+						     					<option>CRN-Credit Card Number</option>
+						     					<option>CRD-Credit Card Expiry Date</option>
+						     					<option>CRI-Credit Card Issuance Name</option>
+						     					<option>GEN-General Information</option>
+						     					<option>GBL-Government Bill of Lading</option>
+						     					<option>MCO-Miscellaneous Charge Order</option>
+						     					<option>STL-Mode of Settlement</option>
+						     					<option>RET-Return of Origin</option>
+						     					<option>SRN-Shipper's Reference Number</option>
+						     				</select>
+						     			</div>
+						     			<div class="con1 col l6">
+						     				<label class="info">Information</label>
+						     				<input type="text" name="information"  placeholder="Required">
+						     			</div>
+							    	</div>
+							    </div>
+				    		 </div>
+				    		 <div class="modal-footer" id="mf">
+				    	 		 <a  class="modal-close waves-effect waves-light btn red">Cancel</a>
+				    	 		  <a  onclick="add()" class="modal-close waves-effect waves-light btn green">Accept</a>
+				    		 </div>
+				    	 </div>   
+				    	 <div class="datatable">
+							<table>
+								<thead>
+									<tr>
+										<th>Id</th>
+										<th>Information</th>
+									</tr>
+								</thead>
+								<tbody id="update">
+								</tbody>
+							</table>  
+						</div>    		
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col s12 m12 l12">
+				<div class="card">
+					<fieldset>
+						<legend>Handling information</legend>
+						<div class="left" >
+							<fieldset>
+								<legend>Special handling details</legend>
+								<div class="content">
+									<div class="label">
+										<label>eAWB</label>
+									</div>
+									<div class="inputfield">
+										<textarea></textarea>
+									</div>
+								</div>
+								<div class="content">
+									<div class="label">
+										<label>Security</label>
+									</div>
+									<div class="inputfield">
+										<textarea></textarea>
+									</div>
+								</div>
+								<div class="content splhandet">
+									<div class="left">
+										<label>
+											<input type="checkbox" name="per_cargo" id="per_cargo">
+											<span><label for="per_cargo">PER - Perishable cargo</label></span>
+										</label>
+										<label>
+											<input type="checkbox" name="per_cargo" id="pri_sm_pack">
+											<span><label for="pri_sm_pack">XPS - Priority small package</label></span>	
+										</label>
+										<label>	
+											<input type="checkbox" name="per_cargo" id="cool_goods">
+											<span><label for="cool_goods">COL - Cool goods</label></span>
+										</label>										
+									</div>
+									<div class="right">
+										<label>
+											<input type="checkbox" name="per_cargo" id="liv_animal">
+											<span><label for="liv_animal">AVI - Live animal</label></span>
+										</label>
+										<label>
+											<input type="checkbox" name="per_cargo" id="sea_food">
+											<span><label for="sea_food">PES - Fish/Seafood</label></span>
+										</label>
+										<label>
+											<input type="checkbox" name="per_cargo" id="cargo_attendent">
+											<span><label for="cargo_attendent">CAT - Cargo attendant acc.</label></span>
+										</label>
+									</div>
+								</div>
+								<div class="content">
+									<div class="label">
+										<label class="otherslab">Others</label>
+									</div>
+									<div class="inputfield others">
+										<textarea class="otherstxt"></textarea>
+										<a class="modal-trigger" href="#search"><i class="fa fa-search fa-lg right search" aria-hidden="true" data-toggle="modal"></i></a>
+										<div id="search" class="modal">
+											 	 <div class="modal-header">
+											 	 	<h4>Add item</h4>
+											 	 </div>
+											     <div class="modal-content other">
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm1" id="otrchk1">
+												     	<span><label>CAO - Cargo Aircraft only</label></span>
+												     	</label>
+													</div>
+													<div>
+														<label>
+														<input type="checkbox" class="otrcheck" name="otritm2" id="otrchk2">
+												     	<span><label>ELI - Lithium Ion Batteries otherwise expected from the IATA DGR</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm3" id="otrchk3">
+												     	<span><label>ELM - Lithium Metal Batteries otherwise expected from yhe IATA DGR</label>
+												     	</span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm4" id="otrchk4">
+												     	<span><label>RCM - Corrosive</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm5" id="otrchk5">
+												     	<span><label>RFW - Cryogenic Liquids</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm6" id="otrchk6">
+												     	<span><label>ICE - Dry Ice</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm7" id="otrchk7">
+												     	<span><label>REX - To be reserved for normally forbidden Explosives,Divisions 1.1,1.2,1.3,1.4F,1.5 and 1.6</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm8" id="otrchk8">
+												     	<span><label>RCX - Explosives 1.3C</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm9" id="otrchk9">
+												     	<span><label>RGX - Explosive 1.3G</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm10" id="otrchk10">
+												     	<span><label>RLI - Fully Regulated Lithium Ion Batteries (Class 9)</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm11" id="otrchk11">
+												     	<span><label>RLM - Fully Regulated Lithium Metal Batteries (Class 9)</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm12" id="otrchk12">
+												     	<span><label>RXB - Explosives 1.4B</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm13" id="otrchk13">
+												     	<span><label>RXC - Explosives 1.4C</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm14" id="otrchk14">
+												     	<span><label>RXD - Explosives 1.4D</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm15" id="otrchk15">
+												     	<span><label>RXG - Explosives 1.4G</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>RXS - Explosives 1.4S</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>RXE - Explosives 1.4E</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>RFG - Flammable Gas</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>RFL - Flammable Liquid</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm10" id="otrchk10">
+												     	<span><label>RFS - Flammable Solid</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm11" id="otrchk11">
+												     	<span><label>RIS - Infectious Substance</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm12" id="otrchk12">
+												     	<span><label>MAG - Magnetized Material</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm13" id="otrchk13">
+												     	<span><label>RMD - Miscellaneous Dangerous Goods</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm14" id="otrchk14">
+												     	<span><label>RNG - Non-Flammable Non-Toxic Gas</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm15" id="otrchk15">
+												     	<span><label>ROP - Organic Peroxide</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>ROX - Oxidizer</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>RPB - Toxic Substance</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>RPG - Toxic Gas</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>RSB - Polymeric Beads</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>RRW - Radioactive Material Category I-White</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>RRY - Radioactive Material Categories II-Yellow and III-Yellow</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>RSC - Spontaneously Combustible</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>ACT - Active Temperature Controlled System</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>AOG - Aircraft on Ground</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>BUP - Bulk Unitization Programme, Shipper/Consignee Handled Unit</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>CAO - Cargo Aircraft Only</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>CAT - Cargo Attendant Accompanying Shipment</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>COM - Company Mail</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>COL - Cool Goods</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>RDS - Diagnostic Specimens</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>DIP - Diplomatic Mail</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>EAP - e-freight Consignment with Accompanying Paper Documents</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>EAW - e-freight Consignment with No Accompanying Paper Documents</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>REQ - Excepted Quantities of Dangerous Goods</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>RRE - Excepted Quantities of Radioactive Material</label></span>
+												     	</label>
+											     	</div><div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>PES - Fish/Seafood</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>PEF - Flowers</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>EAT - Foodstuffs</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>FRI - Frozen Goods Subject to Veterinary/Phytosanitary Inspections</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>FRO - Frozen Goods</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>PEP - Fruits and Vegetables</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>ATT - Goods Attached to Air Waybill</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>GOG - Hanging Garments</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>HEG - Hatching Eggs</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>HEA - Heavy Cargo/150 kilograms and over per piece</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>HUM - Human Remains in Coffin</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+											     		<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>PEA - Hunting trophies, skin, hide and all articles made from or containing parts of species listed in the CITES (Convention on International Trade in Endangered Species) appendices</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>SCO - Cargo Secure forAll-Cargo Aircraft Only</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>SPF - Laboratory Animals</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>SPX - Cargo Secure for Passenger and All-Cargo Aircraft</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>LIC - License Required</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>AVI - Live Animal</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>LHO - Living Human Organs/Blood</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>MAL - Mail</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>PEM - Meat</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>MUW - Munitions of War</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>NSC - Cargo Has Not Been Secured Yet for Passenger or All-Cargo Aircraft</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>NWP - Newspapers, Magazines</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>OBX - Obnoxious Cargo</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>BIG - Outsized</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>OHG - Overhang Item</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>PAC - Passenger and Cargo</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>PER - Perishable Cargo</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>PIL - Pharmaceuticals</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>XPS - Priority Small Package</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>QRT - Quick Ramp Transfer</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>RAC - Reserved Air Cargo</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>SHL - Save Human Life</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+											     		<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>WET - Shipments of Wet Material not Packed in Watertight Containers</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>SWP - Sporting Weapons</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>SUR - Surface Transportation</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm16" id="otrchk16">
+												     	<span><label>USF - Unscreened Cargo</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>FIL - Undeveloped/Unexposed Film</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm18" id="otrchk18">
+												     	<span><label>VAL - Valuable Cargo</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm19" id="otrchk19">
+												     	<span><label>VOL - Volume</label></span>
+												     	</label>
+											     	</div>
+											     	<div>
+												     	<label>
+												     	<input type="checkbox" class="otrcheck" name="otritm17" id="otrchk17">
+												     	<span><label>VUN - Vulnerable Cargo</label></span>
+												     	</label>
+											     	</div>
+									    		 </div>
+									    		 <div class="modal-footer" id="mf">
+									    	 		 <a  class="modal-close waves-effect waves-light btn red">Cancel</a>
+									    	 		  <a  onclick="add()" class="modal-close waves-effect waves-light btn green">Accept</a>
+									    		 </div>
+									    </div>   
+									</div>
+								</div>
+							</fieldset>
+						</div>
+						<div class="right">
+							<fieldset class="splservice">
+								<legend>Special service request</legend>
+								<textarea class="txt_sp_ser_req"></textarea>
+							</fieldset>
+							<fieldset class="splservice">
+								<legend>Other service information</legend>
+								<textarea class="txt_sp_ser_req"></textarea>
+							</fieldset>
+						</div>
+					<div class="left Othercusinfo">
+									<fieldset>
+										<legend>Other customer information</legend>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn">Add</a>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn" disabled="disabled" >Modify</a>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn" disabled="disabled">Remove</a>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn">eCSD</a>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn">China</a>
+										 <div id="addoc" class="modal">
+										 	 <div class="modal-header">
+										 	 	<h4>Add item</h4>
+										 	 </div>
+										     <div class="modal-content">
+										     	<div class="row">
+													<div class="col s12 m12">
+										     			<div class="con1 col l6">
+											     			<label>Country code</label>
+											     			<input type="text" name="description" class="textfd" id="description">
+											    		</div>
+											    		<div class="con2 col l6">
+											     			<label>Information identifier</label>
+											     			<input type="text" name="amount" class="textfd" id="amount" >
+											    		</div>
+											    		<div class="con2 col l6">
+											     			<label>Customs identifier</label>
+											     			<input type="text" name="amount" class="textfd" id="amount" >
+											    		</div>
+											    		<div class="con2 col l6">
+											     			<label>Information</label>
+											     			<input type="text" name="amount" class="textfd" id="amount" >
+											    		</div>
+										     			<div class="con4 col l12">
+										     				<label>
+											     				<input type="checkbox" name="" id="userate" onchange="check()">
+											     				<span><pre><label for="userate">Use rate</label></pre></span>
+											     			</label>
+										     				<input type="text" name="userate" disabled="disabled" id="useratetxt" >
+										     				<select class="browser-default" id="weight" disabled="disabled">
+										     					<option>Gross weight</option>
+										     					<option>Chargeable weight</option>
+										     					<option>No of pieces</option>
+										     				</select>
+										     			</div>
+										     			<div col l6>
+										     				<label>Minimum</label>
+										     				<input type="text" name="minimum" disabled="disabled" id="minimum">	
+										     			</div>
+											    	</div>
+											    </div>
+								    		 </div>
+								    		 <div class="modal-footer">
+								    	 		 <a  class="modal-close waves-effect waves-light btn red">Cancel</a>
+								    	 		  <a  onclick="add()" class="modal-close waves-effect waves-light btn green">Accept</a>
+								    		 </div>
+								    	 </div>   
+								    	 <div class="datatable">
+											<table>
+												<thead>
+													<tr>
+														<th>Country</th>
+														<th>ID</th>
+														<th>Cust ID</th>
+														<th>Information</th>
+													</tr>
+												</thead>
+												<tbody id="update">
+												</tbody>
+											</table>  
+										</div>    		
+								</fieldset>
+								</div>
+								<div class="right custorigin">
+									<fieldset class="custorig"">
+										<legend>Customer orgin</legend>
+										<label class="left">SCI(cutoms origin code)</label>
+										<textarea class="right sci"></textarea>
+									</fieldset>
+									</fieldset>
+									<fieldset>
+										<legend>Rate description</legend>
+										<a class=" btn modal-trigger" href="#addoc" id="addbtn">Add</a>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn" disabled="disabled" >Modify</a>
+										 <a class=" btn modal-trigger" href="#addoc" id="addbtn" disabled="disabled">Remove</a>
+										 <div id="addoc" class="modal">
+										 	 <div class="modal-header">
+										 	 	<h4>Add item</h4>
+										 	 </div>
+										     <div class="modal-content">
+										     	<div class="row">
+													<div class="col s12 m12">
+										     			<div class="con1 col l6">
+											     			<label>Country code</label>
+											     			<input type="text" name="description" class="textfd" id="description">
+											    		</div>
+											    		<div class="con2 col l6">
+											     			<label>Information identifier</label>
+											     			<input type="text" name="amount" class="textfd" id="amount" >
+											    		</div>
+											    		<div class="con2 col l6">
+											     			<label>Customs identifier</label>
+											     			<input type="text" name="amount" class="textfd" id="amount" >
+											    		</div>
+											    		<div class="con2 col l6">
+											     			<label>Information</label>
+											     			<input type="text" name="amount" class="textfd" id="amount" >
+											    		</div>
+										     			<div class="con4 col l12">
+										     				<label>
+											     				<input type="checkbox" name="" id="userate" onchange="check()">
+											     				<span><pre><label for="userate">Use rate</label></pre></span>
+											     			</label>
+										     				<input type="text" name="userate" disabled="disabled" id="useratetxt" >
+										     				<select class="browser-default" id="weight" disabled="disabled">
+										     					<option>Gross weight</option>
+										     					<option>Chargeable weight</option>
+										     					<option>No of pieces</option>
+										     				</select>
+										     			</div>
+										     			<div col l6>
+										     				<label>Minimum</label>
+										     				<input type="text" name="minimum" disabled="disabled" id="minimum">	
+										     			</div>
+											    	</div>
+											    </div>
+								    		 </div>
+								    		 <div class="modal-footer">
+								    	 		 <a  class="modal-close waves-effect waves-light btn red">Cancel</a>
+								    	 		  <a  onclick="add()" class="modal-close waves-effect waves-light btn green">Accept</a>
+								    		 </div>
+								    	 </div>   
+								    	 <div class="datatable">
+											<table>
+												<thead>
+													<tr>							
+														<th>Pieces</th>
+														<th>Gross w.</th>
+														<th>k/l</th>
+														<th>rc</th>
+														<th>Item no.</th>
+														<th>Charg. w.</th>
+														<th>Rate/Charge</th>
+														<th>Total</th>
+														<th>Nature and quantity</th>
+													</tr>
+												</thead>
+												<tbody id="update">
+												</tbody>
+											</table>  
+										</div>    		
+									</fieldset>
+								</div>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+					<div class="left" >
+							<div class="row">
+								<div class="col s12 m12 l12">
+									<div class="card">
+										<fieldset>
+										<legend>Charges summary</legend>
+										<div class="content">
+											<div class="label">
+												<table>
+													<tr>
+														<td></td>
+														<td><label>Prepaid</label></td>
+														<td><label>Collect</label></td>
+													</tr>
+													<tr>
+														<td><label>Weight Charge</label></td>
+														<td><textarea></textarea></td>
+														<td><textarea></textarea></td>
+													</tr>
+													<tr>
+														<td><label>Valuation charge</label></td>
+														<td><textarea></textarea></td>
+														<td><textarea></textarea></td>
+													</tr>
+													<tr>
+														<td><label>Tax</label></td>
+														<td><textarea></textarea></td>
+														<td><textarea></textarea></td>
+													</tr>
+													<tr>
+														<td><label>Other charges due agent</label></td>
+														<td><textarea></textarea></td>
+														<td><textarea></textarea></td>
+													</tr>
+													<tr>
+														<td><label>Other charges due carrier</label></td>
+														<td><textarea></textarea></td>
+														<td><textarea></textarea></td>
+													</tr>
+													<tr>
+														<td><label>Total</label></td>
+														<td><textarea></textarea></td>
+														<td><textarea></textarea></td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										</fieldset>
+										<fieldset>
+											<legend>CC charges in destination currency</legend>
+											<div class="content">
+												<div class="label">
+													<table>
+														<tr>
+															<td><label>Destination currency</label></td>
+															<td><textarea></textarea></td>
+														</tr>
+														<tr>
+															<td><label>Currency conv. rates</label></td>
+															<td><textarea></textarea></td>
+														</tr>
+														<tr>
+															<td><label>CC charges in dest</label></td>
+															<td><textarea></textarea></td>
+														</tr>
+														<tr>
+															<td><label>Charges at dest.</label></td>
+															<td><textarea></textarea></td>
+														</tr>
+														<tr>
+															<td><label>Total collect</label></td>
+															<td><textarea></textarea></td>
+														</tr>
+													</table>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="row">
+								<div class="col s12 m12 l12">
+									<div class="card">
+												<fieldset>
+													<legend>Shipment referente information</legend>
+													<div class="content">
+														<div class="label">
+															<label>Reference number</label>
+														</div>
+														<div class="inputfield">
+															<textarea></textarea>
+														</div>
+													</div>
+													<div class="content sri">
+														<div class="label">
+															<label class="srinfolab">Information</label>
+														</div>
+														<div class="inputfield srinfo">
+															<textarea class="srinfotxt"></textarea>
+															<textarea></textarea>
+														</div>
+													</div>	
+												</fieldset>
+												<fieldset>
+														<legend>Charges declaration</legend>
+														<table>
+															<tr>
+																<td><label>Currency</label></td>
+																<td><textarea></textarea></td>
+																<td><label>CHGG</label></td>
+																<td>
+																<select class="browser-default chargesdec">
+																	<option>CC</option>
+																	<option>CZ</option>
+																	<option>CG</option>
+																	<option>PP</option>
+																	<option>PX</option>
+																	<option>PZ</option>
+																	<option>PG</option>
+																	<option>CP</option>
+																	<option>CX</option>
+																	<option>CM</option>
+																	<option>NC</option>
+																	<option>NT</option>
+																	<option>NZ</option>
+																	<option>NG</option>
+																	<option>NP</option>
+																	<option>NX</option>
+																	<option>CA</option>
+																	<option>CB</option>
+																	<option>CE</option>
+																	<option>CH</option>
+																	<option>PC</option>
+																	<option>PD</option>
+																	<option>PE</option>
+																	<option>PH</option>
+																	<option>PF</option>
+																</select></td>
+															</tr>
+															<tr>
+																<td><label>Value for carriage</label></td>
+																<td><textarea>NVD</textarea></td>
+																<td><label>	WT/VAL</label></td>
+																<td>
+																	<select class="browser-default chargesdec">
+																	<option>PPD</option>
+																	<option>COLL</option>
+																<td>
+															</tr>
+															<tr>
+																<td><label>Value for customs</label></td>
+																<td><textarea>NCV</textarea></td>
+																<td><label>Other</label></td>
+																<td>
+																	<select class="browser-default chargesdec">
+																	<option>PPD</option>
+																	<option>COLL</option>
+																</td>
+															</tr>
+															<tr>
+																<td><label>Amount of insurance</label></td>
+																<td><textarea>XXX</textarea></td>
+															</tr>
+														</table>
+													</fieldset>
+													<fieldset>
+													<legend>Other charges</legend>
+														 <a class=" btn modal-trigger" href="#addoc" id="addbtn">Add</a>
+														 <a class=" btn modal-trigger" href="#addoc" id="addbtn" disabled="disabled" >Modify</a>
+														 <a class=" btn modal-trigger" href="#addoc" id="addbtn" disabled="disabled">Remove</a>
+														 <div id="addoc" class="modal">
+														 	 <div class="modal-header">
+														 	 	<h4>Add item</h4>
+														 	 </div>
+														     <div class="modal-content">
+														     	<div class="row">
+																	<div class="col s12 m12">
+														     			<div class="con1 col l6">
+															     			<label>Code</label>
+															     			<input type="text" name="description" class="textfd" id="description">
+															    		</div>
+															    		<div class="con2 col l6">
+															     			<label>Amount</label>
+															     			<input type="text" name="amount" class="textfd" id="amount" >
+															    		</div>
+														     			<div class="con4 col l12">
+														     				<label>
+															     				<input type="checkbox" name="" id="userate" onchange="check()">
+															     				<span><pre><label for="userate">Use rate</label></pre></span>
+															     			</label>
+														     				<input type="text" name="userate" disabled="disabled" id="useratetxt" >
+														     				<select class="browser-default" id="weight" disabled="disabled">
+														     					<option>Gross weight</option>
+														     					<option>Chargeable weight</option>
+														     					<option>No of pieces</option>
+														     				</select>
+														     			</div>
+														     			<div col l6>
+														     				<label>Minimum</label>
+														     				<input type="text" name="minimum" disabled="disabled" id="minimum">	
+														     			</div>
+															    	</div>
+															    </div>
+												    		 </div>
+												    		 <div class="modal-footer">
+												    	 		 <a  class="modal-close waves-effect waves-light btn red">Cancel</a>
+												    	 		  <a  onclick="add()" class="modal-close waves-effect waves-light btn green">Accept</a>
+												    		 </div>
+												    	 </div>   
+												    	 <div class="datatable">
+															<table>
+																<thead>
+																	<tr>
+																		<th>Code</th>
+																		<th>Amount</th>
+																	</tr>
+																</thead>
+																<tbody id="update">
+																</tbody>
+															</table>  
+														</div>    		
+													</fieldset>
+													<fieldset>
+														<legend>Shipper's certification</legend>
+														<div class="content">
+															<div class="label">
+																<label>Signature</label>
+															</div>
+															<div class="inputfield">
+																<textarea></textarea>
+															</div>
+														</div>
+													</fieldset>
+													<fieldset>
+														<legend>Carrier execution</legend>
+														<div class="content">
+															<div class="label">
+																<label>Date</label>
+															</div>
+															<div class="inputfield">
+																 <input type="text" class="datepicker">
+															</div>
+														</div>
+														<div class="content">
+															<div class="label">
+																<label>Place</label>
+															</div>
+															<div class="inputfield">
+																<textarea></textarea>
+															</div>
+														</div>
+														<div class="content">
+															<div class="label">
+																<label>Signature</label>
+															</div>
+															<div class="inputfield">
+																<textarea></textarea>
+															</div>
+														</div>
+													</fieldset>
+												</div>
+											</div>
+										</div>
+									</div>
+	<script type="text/javascript" src="add.js"></script>
+</body>
+</html>
